@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MauiAppMinhasCompras.MainPage">
+
+    <VerticalStackLayout
+        Padding="30"
+        Spacing="20">
+
+        <Label
+            Text="Minhas Compras"
+            FontSize="30"
+            HorizontalOptions="Center" />
+
+        <Button
+            Text="Novo Produto"
+            Clicked="OnNovoProdutoClicked" />
+
+        <Button
+            Text="Ver Produtos"
+            Clicked="OnVerProdutosClicked" />
+
+    </VerticalStackLayout>
+
+</ContentPage>
